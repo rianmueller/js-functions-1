@@ -85,6 +85,10 @@ function add(x, y){
  * @return {number} squared
  */
 
+ function square(x){
+     n = x * x;
+     return n;
+ }
 
 /**
  * Performs a mathematical operation on two numbers.
