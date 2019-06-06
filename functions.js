@@ -38,6 +38,10 @@ function increase(n){
  * @return {number} the sum
  */
 
+function add(x, y){
+    n = x + y;
+    return n;
+}
 
 /**
  * Subtracts the second number from the first.
