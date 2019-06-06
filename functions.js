@@ -74,6 +74,10 @@ function add(x, y){
  * @return {number} the quotient
  */
 
+ function divide(x, y){
+     n = x / y;
+     return n;
+ }
 
 /**
  * Multiplies a number by itself.
