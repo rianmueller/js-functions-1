@@ -15,6 +15,10 @@ function numberToString(n){
  * @return {number}
  */
 
+function increase(n){
+    n = n + 1;
+    return n;
+}
 
 /**
  * Subtracts one from a given number.
@@ -22,6 +26,10 @@ function numberToString(n){
  * @return {number}
  */
 
+ function decrease(n){
+     n = n - 1;
+     return n;
+ }
 
 /**
  * Adds two numbers.
