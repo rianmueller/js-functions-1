@@ -50,6 +50,10 @@ function add(x, y){
  * @return {number} the difference
  */
 
+ function subtract(x, y){
+     n = x - y;
+     return n;
+ }
 
 /**
  * Multiplies two numbers.
