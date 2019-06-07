@@ -99,6 +99,22 @@ function add(x, y){
  * @return {number} the result
  */
 
+ function calculate(operation, x, y){
+     if(operation == 'add'){
+         n = x + y;
+         console.log(x + ' + ' + y + ' = ' + n);
+     }else if(operation == 'subtract'){
+         n = x - y;
+         console.log(x + ' - ' + y + ' = ' + n);
+     }else if(operation == 'multiply'){
+         n = x * y;
+         console.log(x + ' * ' + y + ' = ' + n);
+     }else if(operation == 'divide'){
+         n = x / y;
+         console.log(x + ' / ' + y + ' = ' + n);
+     }
+     return n;
+ }
 
 /**
  * Returns true if `a` is greater than `b`.
