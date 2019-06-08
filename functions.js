@@ -196,6 +196,12 @@ function maximum(x, y){
  * @return {boolean} the number is even
  */
 
+ function isEven(n){
+     if(n % 2 == 0){
+         return true;
+     }
+ }
+
 
 /**
  * Returns true if `n` is odd.
@@ -203,6 +209,11 @@ function maximum(x, y){
  * @return {boolean} the number is odd
  */
 
+ function isOdd(n){
+     if(Math.abs(n) % 2 == 1){
+         return true;
+     }
+ }
 
 /**
  * Returns a letter grade.
