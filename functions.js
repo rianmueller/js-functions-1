@@ -5,8 +5,7 @@
  */
 
 function numberToString(n){
-    n = n.toString();
-    return n;
+    return n.toString();
 }
 
 /**
@@ -16,8 +15,7 @@ function numberToString(n){
  */
 
 function increase(n){
-    n = n + 1;
-    return n;
+    return n + 1;
 }
 
 /**
@@ -27,8 +25,7 @@ function increase(n){
  */
 
  function decrease(n){
-     n = n - 1;
-     return n;
+     return n - 1;
  }
 
 /**
@@ -39,8 +36,7 @@ function increase(n){
  */
 
 function add(x, y){
-    n = x + y;
-    return n;
+    return x + y;
 }
 
 /**
@@ -51,8 +47,7 @@ function add(x, y){
  */
 
  function subtract(x, y){
-     n = x - y;
-     return n;
+     return x - y;
  }
 
 /**
@@ -63,8 +58,7 @@ function add(x, y){
  */
 
  function multiply(x, y){
-     n = x * y;
-     return n;
+     return x * y;
  }
 
 /**
@@ -75,8 +69,7 @@ function add(x, y){
  */
 
  function divide(x, y){
-     n = x / y;
-     return n;
+     return x / y;
  }
 
 /**
@@ -86,8 +79,7 @@ function add(x, y){
  */
 
  function square(x){
-     n = x * x;
-     return n;
+     return x * x;
  }
 
 /**
@@ -123,6 +115,13 @@ function add(x, y){
  * @return {boolean} `a` is larger than `b`
  */
 
+ function isGreaterThan(a, b){
+     var n;
+     if(a > b){
+         n = true;
+     }
+     return n;
+ }
 
 /**
  * Returns true if `a` is less than `b`.
@@ -131,6 +130,13 @@ function add(x, y){
  * @return {boolean} `a` is smaller than `b`
  */
 
+ function isLessThan(a, b){
+     var n;
+     if(a < b){
+         n = true;
+    }
+    return n;
+}
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -139,6 +145,16 @@ function add(x, y){
  * @return {boolean} the numbers are equal
  */
 
+ function areEqual(a, b){
+     var n;
+     if(a === b){
+         n = true;
+     }
+     else if(a == b){
+         n = false;
+     }
+     return n;
+ }
 
 /**
  * Returns the smallest value of two numbers.
