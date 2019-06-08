@@ -202,7 +202,6 @@ function maximum(x, y){
      }
  }
 
-
 /**
  * Returns true if `n` is odd.
  * @param {number} n
@@ -227,6 +226,21 @@ function maximum(x, y){
  * @return {string} the score represented as a letter grade
  */
 
+ function letterGrade(score, total){
+     var grade;
+     if(score / total >= .9){
+         grade = 'A';
+     }else if(score / total >= .8){
+         grade = 'B';
+     }else if(score / total >= .7){
+         grade = 'C';
+     }else if(score / total >= .6){
+         grade = 'D';
+     }else{
+         grade = 'F';
+     }
+     return grade;
+ }
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
