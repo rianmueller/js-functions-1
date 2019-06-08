@@ -250,6 +250,14 @@ function maximum(x, y){
  * @return {object} restaurant
  */
 
+ function incrementReviews(restaurant){
+     if(reviews in restaurant){
+         reviews.value += 1;
+     }else{
+         restaurant['reviews'] = 1;
+     }
+     return restaurant;
+ }
 
 /**
  * Joins two strings with a space.
@@ -257,6 +265,10 @@ function maximum(x, y){
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+
+ function combine(word1, word2){
+     return word1 + ' ' + word2;
+ }
 
 
 /**
