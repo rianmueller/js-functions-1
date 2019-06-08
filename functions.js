@@ -119,7 +119,7 @@ function add(x, y){
      var n;
      if(a > b){
          n = true;
-     }
+     }else n = false;
      return n;
  }
 
@@ -134,7 +134,7 @@ function add(x, y){
      var n;
      if(a < b){
          n = true;
-    }
+    }else n = false;
     return n;
 }
 
@@ -163,6 +163,15 @@ function add(x, y){
  * @return {number} the smallest number
  */
 
+ function minimum(x, y){
+     var n;  
+     if(x < y){
+         n = x;
+     }else if(y < x){
+         n = y;
+     }
+     return n;
+ }
 
 /**
  * Returns the largest value of two numbers.
