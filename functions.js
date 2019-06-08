@@ -165,9 +165,9 @@ function add(x, y){
 
  function minimum(x, y){
      var n;  
-     if(x < y){
+     if(x <= y){
          n = x;
-     }else if(y < x){
+     }else if(y <= x){
          n = y;
      }
      return n;
@@ -180,6 +180,15 @@ function add(x, y){
  * @return {number} the largest number
  */
 
+function maximum(x, y){
+    var n;  
+    if(x >= y){
+        n = x;
+    }else if(y >= x){
+        n = y;
+    }
+    return n;
+}
 
 /**
  * Returns true if `n` is even.
